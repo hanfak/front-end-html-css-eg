@@ -45,6 +45,21 @@ header {
   position: absolute;
 }
 
+#description {
+  width: 50%;
+  display: inline-block;
+}
+
+#form {
+  float: right;
+}
+
+.input-fields {
+  display:block;
+}
+
+
+
 footer{
   background-color: #3f3f3f;
 }

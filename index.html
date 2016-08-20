@@ -28,32 +28,37 @@
     </div>
 
     <section>
-      <h3>You're a couple moments away from getting a beer</h3>
-      <p>
-        Let's start with some basics. By letting us know a bit about your tastebuds, we'll be able to start gathering the information we need in order to get you a beer. We may even be able to introduce you to something you've never tried before but will love.
-      </p>
-      <p>
-        We're a company who likes beer. We help beer lovers like you find your favorite and wait times of your local pub. And since we sell beer directly, we also save you money.
-      </p>
+      <div id='description'>
+        <h3>You're a couple moments away from getting a beer</h3>
+        <p>
+          Let's start with some basics. By letting us know a bit about your tastebuds, we'll be able to start gathering the information we need in order to get you a beer. We may even be able to introduce you to something you've never tried before but will love.
+        </p>
+        <p>
+          We're a company who likes beer. We help beer lovers like you find your favorite and wait times of your local pub. And since we sell beer directly, we also save you money.
+        </p>
+      </div>
       <!--post request  -->
-      <form>
-        What's your favorite beer?<br>
-        <input type="text" name="beer" placeholder='Jane Doe'>
-        How many times a week do you drink?<br>
-        <select name="consumption" >
-          <!-- Arrow down -->
-          <option value="start" selected>Select an option</option>
-          <option value="option1">1</option>
-          <option value="option2">2</option>
-          <option value="option3">3</option>
-          <option value="option4">4</option>
-        </select>
-        <!--button for post for second input  -->
+      <div id='form'>
 
-        <input type="submit" value="Get Advice">
-        <!--button for post for first input  -->
-        <a href="#">Get a Beer</a>
-      </form>
+        <form>
+          What's your favorite beer?<br>
+          <input class='input-fields' type="text" name="beer" placeholder='Jane Doe'>
+          How many times a week do you drink?<br>
+          <select class='input-fields' name="consumption" >
+            <!-- Arrow down -->
+            <option value="start" selected>Select an option</option>
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+          </select>
+          <!--button for post for second input  -->
+
+          <input type="submit" value="Get Advice">
+          <!--button for post for first input  -->
+          <a href="#">Get a Beer</a>
+        </form>
+      </div>
     </section>
 
     <section>

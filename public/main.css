@@ -44,3 +44,21 @@ header {
   bottom:0;
   position: absolute;
 }
+
+footer{
+  background-color: #3f3f3f;
+}
+
+#company-details {
+  display: inline-block;
+  color: white; /*change colour*/
+}
+
+#address {
+  color:lightgrey;/*change colour*/
+}
+
+
+footer img {
+  float:right;
+}

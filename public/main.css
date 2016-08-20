@@ -1,3 +1,7 @@
+body {
+  margin: 0 auto
+}
+
 header, section, nav, footer {
   border: black 1px solid;
   height: auto;
@@ -56,6 +60,24 @@ header {
 
 .input-fields {
   display:block;
+}
+
+#usp {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #eeeeec;
+}
+
+#usp ul {
+  padding:0;
+  display: flex;
+}
+
+#usp li {
+  width: 25%;
+  display: inline;
+  padding: 10px;
 }
 
 
